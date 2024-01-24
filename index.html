@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Plants</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="scss/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-bg">
+        <div class="container">
+          <nav class="navbar-top">
+            <div class="contacts">
+              <a href="#">
+                <h6>
+                  <img src="images/email.svg" alt="email" />
+                  Email: Plantingservice@7oroof.com
+                </h6>
+              </a>
+              <a href="#">
+                <h6>
+                  <img src="images/phone-call.svg" alt="phone" />
+                  +01 123456789
+                </h6>
+              </a>
+              <a href="#">
+                <h6>
+                  <img src="images/location.svg" alt="location" />
+                  2072 Pinnickinick Street, WA 98370
+                </h6>
+              </a>
+            </div>
+            <div class="language">
+              <select name="language" id="language">
+                <option value="english">English</option>
+                <option value="chinese">Chinese</option>
+                <option value="spanish">Spanish</option>
+                <option value="ukrainian">Ukrainian</option>
+              </select>
+            </div>
+          </nav>
+          <nav class="navbar-bottom">
+            <a href="#">
+              <img src="images/logo.svg" alt="logo" class="logo-img" />
+            </a>
+            <div class="navbar-menu-list">
+              <a href="#" class="list-item"><h5>Home</h5></a>
+              <a href="#" class="list-item"><h5>Company</h5></a>
+              <a href="#" class="list-item"><h5>Services</h5></a>
+              <a href="#" class="list-item"><h5>Project</h5></a>
+              <a href="#" class="list-item"><h5>Blog</h5></a>
+              <a href="#" class="list-item"><h5>Contact</h5></a>
+            </div>
+            <button>
+              <img src="images/phone.svg" alt="phone" />
+              <h5>Call Us</h5>
+            </button>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="frame-top">
+        <div class="main-top-bg">
+          <div class="container">
+            <div class="frame-top-content">
+              <div class="text-content">
+                <h5>
+                  <img src="images/vector.svg" alt="vector" />
+                  Landscape Planting Services
+                </h5>
+                <h1>
+                  Perfect Landscape <br />
+                  <span>Solution.</span>
+                </h1>
+                <h5>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                  elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus
+                  leo.
+                </h5>
+              </div>
+              <div class="content-btn">
+                <button>Get A Quate</button>
+                <a href="#">
+                  See how it works
+                  <img src="images/arrow-icon.svg" alt="arrow" />
+                </a>
+              </div>
+              <div class="content-teg">
+                <div class="teg-item">
+                  <div class="teg-circle"><h6>500+</h6></div>
+                  <h5>Happy Customrs</h5>
+                </div>
+                <div class="teg-item">
+                  <div class="teg-circle"><h6>800+</h6></div>
+                  <h5>Garden Created</h5>
+                </div>
+                <div class="teg-item">
+                  <div class="teg-circle"><h6>100+</h6></div>
+                  <h5>Team Members</h5>
+                </div>
+              </div>
+            </div>
+            <div class="frame-top-img">
+              <img src="images/main-img.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="services">
+        <div class="container">
+          <div class="services-text">
+            <h2>Services We <span>Provide</span></h2>
+            <h5>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took of type and
+              scrambled it to make a type specimen book.
+            </h5>
+          </div>
+          <div class="services-card-list">
+            <div
+              class="card-list-item"
+              onmouseover="changeImage(this, 0)"
+              onmouseout="restoreImage(this, 0)"
+            >
+              <img class="inint-img" src="images/image-0.svg" alt="" />
+              <h4>Tree Planting</h4>
+              <h5>
+                Lorem Ipsum is simply dummy text of the printing and type
+                setting industry.
+              </h5>
+            </div>
+            <div
+              class="card-list-item"
+              onmouseover="changeImage(this, 1)"
+              onmouseout="restoreImage(this, 1)"
+            >
+              <img class="inint-img" src="images/image-1.svg" alt="" />
+              <h4>Grass Cutting</h4>
+              <h5>
+                Lorem Ipsum is simply dummy text of the printing and type
+                setting industry.
+              </h5>
+            </div>
+            <div
+              class="card-list-item"
+              onmouseover="changeImage(this, 2)"
+              onmouseout="restoreImage(this, 2)"
+            >
+              <img class="inint-img" src="images/image-2.svg" alt="" />
+              <h4>Garden Design</h4>
+              <h5>
+                Lorem Ipsum is simply dummy text of the printing and type
+                setting industry.
+              </h5>
+            </div>
+            <div
+              class="card-list-item"
+              onmouseover="changeImage(this, 3)"
+              onmouseout="restoreImage(this, 3)"
+            >
+              <img class="inint-img" src="images/image-3.svg" alt="" />
+              <h4>Plant Growing</h4>
+              <h5>
+                Lorem Ipsum is simply dummy text of the printing and type
+                setting industry.
+              </h5>
+            </div>
+            <div
+              class="card-list-item"
+              onmouseover="changeImage(this, 4)"
+              onmouseout="restoreImage(this, 4)"
+            >
+              <img class="inint-img" src="images/image-4.svg" alt="" />
+              <h4>Flower Scaping</h4>
+              <h5>
+                Lorem Ipsum is simply dummy text of the printing and type
+                setting industry.
+              </h5>
+            </div>
+            <div
+              class="card-list-item"
+              onmouseover="changeImage(this, 5)"
+              onmouseout="restoreImage(this, 5)"
+            >
+              <img class="inint-img" src="images/image-5.svg" alt="" />
+              <h4>Branch cutting</h4>
+              <h5>
+                Lorem Ipsum is simply dummy text of the printing and type
+                setting industry.
+              </h5>
+            </div>
+            <div
+              class="card-list-item"
+              onmouseover="changeImage(this, 6)"
+              onmouseout="restoreImage(this, 6)"
+            >
+              <img class="inint-img" src="images/image-6.svg" alt="" />
+              <h4>Pests, Weeds Control</h4>
+              <h5>
+                Lorem Ipsum is simply dummy text of the printing and type
+                setting industry.
+              </h5>
+            </div>
+            <div
+              class="card-list-item"
+              onmouseover="changeImage(this, 7)"
+              onmouseout="restoreImage(this, 7)"
+            >
+              <img class="inint-img" src="images/image-7.svg" alt="" />
+              <h4>Watering & Irrigation</h4>
+              <h5>
+                Lorem Ipsum is simply dummy text of the printing and type
+                setting industry.
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="frame-bottom">
+        <div class="container"></div>
+      </div>
+      <div class="why-choose-us">
+        <div class="main-center-bg">
+          <div class="container">
+            <div class="why-choose-us-content">
+              <h2>Why Choose Us</h2>
+              <h5>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book.
+              </h5>
+              <div class="content-tag">
+                <div class="content-tag-top">
+                  <div class="teg-list">
+                    <div class="teg-item">
+                      <img src="images/tick.svg" alt="" />
+                      <h4>Proper Take Care</h4>
+                    </div>
+                    <div class="teg-item">
+                      <img src="images/tick.svg" alt="" />
+                      <h4>Expert Farmer</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="content-tag-bottom">
+                  <div class="teg-list">
+                    <div class="teg-item">
+                      <img src="images/tick.svg" alt="" />
+                      <h4>Clean Working</h4>
+                    </div>
+                    <div class="teg-item">
+                      <img src="images/tick.svg" alt="" />
+                      <h4>Home Gardening</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="why-choose-us-btn">
+                <button>Discover More</button>
+              </div>
+            </div>
+            <div class="why-choose-us-img">
+              <img src="images/rectangle.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="working-process">
+        <div class="container"></div>
+      </div>
+      <div class="cta">
+        <div class="container"></div>
+      </div>
+      <div class="team">
+        <div class="container"></div>
+      </div>
+      <div class="clients-saying">
+        <div class="main-bottom-bg">
+          <div class="container">
+            <h2>What <span>Clients Saying</span></h2>
+            <h5 class="slider-top-text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown of type and scrambled it to
+              make a type specimen book.
+            </h5>
+            <div class="custom-buttons-container">
+              <button class="custom-button-prev" onclick="mySwiper.slidePrev()">
+                <img src="" alt="" />
+              </button>
+              <button class="custom-button-next" onclick="mySwiper.slideNext()">
+                <img src="" alt="" />
+              </button>
+            </div>
+            <div class="swiper slider-top">
+              <div class="swiper-wrapper wrapper-top">
+                <div class="swiper-slide slide-top">
+                  <img src="/images/pngegg-1.png" alt="Manager" />
+                  <div class="slide-content">
+                    <h5>
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry's
+                      standard dummy text ever since the 1500s, when an unknown
+                      printer took a galley of type and scrambled it to make.
+                    </h5>
+                    <div class="content-footer">
+                      <div class="footer-name">
+                        <h4>Jane Smith</h4>
+                        <h5>Manager</h5>
+                      </div>
+                      <img src="/images/star.svg" alt="star" />
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide slide-top">
+                  <img src="/images/pngegg-1.png" alt="Manager" />
+                  <div class="slide-content">
+                    <h5>
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry's
+                      standard dummy text ever since the 1500s, when an unknown
+                      printer took a galley of type and scrambled it to make.
+                    </h5>
+                    <div class="content-footer">
+                      <div class="footer-name">
+                        <h4>Jane Smith</h4>
+                        <h5>Manager</h5>
+                      </div>
+                      <img src="/images/star.svg" alt="star" />
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide slide-top">
+                  <img src="/images/pngegg-1.png" alt="Manager" />
+                  <div class="slide-content">
+                    <h5>
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry's
+                      standard dummy text ever since the 1500s, when an unknown
+                      printer took a galley of type and scrambled it to make.
+                    </h5>
+                    <div class="content-footer">
+                      <div class="footer-name">
+                        <h4>Jane Smith</h4>
+                        <h5>Manager</h5>
+                      </div>
+                      <img src="/images/star.svg" alt="star" />
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide slide-top">
+                  <img src="/images/pngegg-1.png" alt="Manager" />
+                  <div class="slide-content">
+                    <h5>
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry's
+                      standard dummy text ever since the 1500s, when an unknown
+                      printer took a galley of type and scrambled it to make.
+                    </h5>
+                    <div class="content-footer">
+                      <div class="footer-name">
+                        <h4>Jane Smith</h4>
+                        <h5>Manager</h5>
+                      </div>
+                      <img src="/images/star.svg" alt="star" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="faq">
+        <div class="container"></div>
+      </div>
+      <div class="blog">
+        <div class="container">
+          <h2 class="blog-text-2">
+            Our <span class="text-2-span">Insights & Articles</span>
+          </h2>
+          <h5 class="blog-text-5">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took of type and
+            scrambled it to make a type specimen book.
+          </h5>
+          <div class="swiper slider-bottom">
+            <div class="swiper-wrapper wrapper-bottom">
+              <div class="swiper-slide slide-bottom"></div>
+              <div class="swiper-slide slide-bottom">Slide 2</div>
+              <div class="swiper-slide slide-bottom">Slide 3</div>
+              <div class="swiper-slide slide-bottom">Slide 4</div>
+              ...
+            </div>
+            <div class="swiper-pagination swiper-pagination-bottom"></div>
+          </div>
+        </div>
+      </div>
+      <div class="company-logos">
+        <div class="container"></div>
+      </div>
+    </main>
+    <footer></footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
